@@ -26,6 +26,7 @@ Parameters (specified as an options hash):
 * `globalize`: Expose this StatsD instance globally? `default: false`
 * `cacheDns`:  Cache the initial dns lookup to *host* `default: false`
 * `mock`:      Create a mock StatsD instance, sending no stats to the server? `default: false`
+* `console`:   Call `console.log` on each message, used only for development and debugging purposes
 
 All StatsD methods have the same API:
 * `name`:       Stat name `required`
